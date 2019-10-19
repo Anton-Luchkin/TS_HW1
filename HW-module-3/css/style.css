@@ -1,0 +1,123 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Playfair Display", "Arial", serif;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.container {
+  width: 901px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* site navigation */
+nav {
+  height: 192px;
+}
+
+ul {
+  letter-spacing: -4px;
+}
+ul li {
+  letter-spacing: 0px;
+}
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  list-style: none;
+}
+.site-navigation li {
+  display: inline-block;
+  margin-top: 77px;
+}
+.site-navigation a {
+  color: #626262;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #03a9f4;
+}
+
+.menu-lifestyle {
+  margin-left: 164px;
+}
+.menu-photodiary {
+  margin-left: 120px;
+}
+.menu-music {
+  margin-left: 103px;
+}
+.menu-travel {
+  margin-right: 164px;
+  margin-left: 95px;
+}
+
+/* Main blocks */
+img {
+    margin-bottom: 30px;
+    width: 420px;
+    height: 280px;
+}
+
+.row {
+  width: 420px;
+  display: inline-block;
+  margin-right: 60px;
+}
+.row:nth-child(2n) {
+  margin-right: 0;
+}
+
+.category {
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+.post-title {
+    margin-bottom: 36px;
+}
+.post-about {
+    margin-bottom: 130px;
+}
+
+.last-post {
+    margin-bottom: 0;
+}
+
+.left-margin {
+  margin-left: -4px;
+}
+
+/* Button */
+.load-button {
+    border-width: 1px;
+    border-color: rgb(98, 98, 98);
+    border-style: solid;
+    margin: 52px 379px 70px 358px;
+    background-color: transparent;
+    font-size: 20px;
+    line-height: 24px;
+    color:#626262;
+    height: 60px;
+    width: 164px;
+    cursor: pointer;
+}
