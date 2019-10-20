@@ -93,6 +93,7 @@ img {
     margin-bottom: 32px;
     text-transform: uppercase;
     font-family: "Ubuntu";
+    font-weight: 300;
     font-size: 14px;
 }
 .post-title {
