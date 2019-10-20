@@ -62,14 +62,14 @@ ul li {
   margin-left: 164px;
 }
 .menu-photodiary {
-  margin-left: 120px;
+  margin-left: 100px;
 }
 .menu-music {
-  margin-left: 103px;
+  margin-left: 100px;
 }
 .menu-travel {
   margin-right: 164px;
-  margin-left: 95px;
+  margin-left: 100px;
 }
 
 /* Main blocks */
@@ -93,13 +93,15 @@ img {
     margin-bottom: 32px;
     text-transform: uppercase;
     font-family: "Ubuntu";
-
+    font-size: 14px;
 }
 .post-title {
     margin-bottom: 36px;
+    font-size: 30px;
 }
 .post-about {
     margin-bottom: 130px;
+    font-size: 14px;
 }
 
 .last-post {
