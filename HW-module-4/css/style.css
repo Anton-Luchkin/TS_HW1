@@ -30,9 +30,7 @@ img {
 }
 
 /* HEADER */
-.page-header {
-  height: 78px;
-}
+
 /* Site logo */
 .site-title {
   font-size: 30px;
@@ -49,7 +47,7 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   color: #555252;
-  margin: 38px 0 0 0;
+  margin: 34px 0 101px 0;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -65,7 +63,7 @@ img {
   width: 495px;
   font-size: 14px;
   list-style: none;
-  margin: 44px 0 0 0;
+  margin: 39px 0 0 0;
   padding-left: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
@@ -99,8 +97,7 @@ img {
   font-weight: 900;
   color: #515151;
   text-transform: uppercase;
-  height: 82px;
-  margin: 84px auto;
+  margin: 0 auto 92px;
   text-align: center;
 }
 
@@ -120,12 +117,9 @@ img {
   height: 322px;
 }
 
-.product-image:hover + .product-title div{
-  background-color: rgb(26, 188, 156);
-}
-
-.product-title div:hover {
-  background-color: rgb(26, 188, 156);
+.product-name a {
+  text-decoration: none;
+  color:#ffffff;
 }
 
 .featured img {
@@ -144,6 +138,10 @@ img {
   width: 255px;
   height: 40px;
   background-color: rgb(50, 50, 50);
+}
+
+.featured:hover .wrapper {
+  background-color: rgb(26, 188, 156);
 }
 
 .product-name {
@@ -182,7 +180,7 @@ img {
 }
 
 .galery section:nth-last-of-type(-n + 4) {
-  margin-bottom: 0px;
+  margin-bottom: 105px;
 }
 
 
@@ -218,7 +216,7 @@ img {
   height: 3px;
   background-color: rgb(26, 188, 156);
   content: "";
-  margin: 11px 0 0;
+  margin: 11px 0 26px;
 }
 
 .news {
@@ -226,7 +224,9 @@ img {
   line-height: 26px;
   color: rgb(85, 82, 82);
   font-weight: 400;
-  margin: 26px auto 12px;
+  margin: 0 auto 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 
 /* BUTTON */
@@ -235,7 +235,6 @@ img {
   border-radius: 3px;
   font-size: 16px;
   line-height: 26px;
-  color: #ffffff;
   background-color: rgb(78, 198, 171);
   left: 642px;
   width: 160px;
@@ -243,6 +242,11 @@ img {
   cursor: pointer;
   padding: 0;
   margin: 0;
+}
+
+.button a {
+  text-decoration: none;
+  color: #ffffff;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
