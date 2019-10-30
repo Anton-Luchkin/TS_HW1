@@ -114,7 +114,6 @@ img {
 
 .featured {
   width: 255px;
-  height: 322px;
 }
 
 .product-name a {
@@ -134,19 +133,18 @@ img {
   float: right;
 }
 
-.wrapper {
+.product {
   width: 255px;
   height: 40px;
   background-color: rgb(50, 50, 50);
 }
 
-.featured:hover .wrapper {
+.featured:hover .product {
   background-color: rgb(26, 188, 156);
 }
 
 .product-name {
   width: 201px;
-  height: 40px;
   margin: 0;
   font-size: 18px;
   line-height: 40px;
@@ -158,7 +156,6 @@ img {
 
 .price {
   width: 54px;
-  height: 40px;
   margin: 0;
   font-size: 18px;
   line-height: 40px;
@@ -182,8 +179,6 @@ img {
 .galery section:nth-last-of-type(-n + 4) {
   margin-bottom: 105px;
 }
-
-
 
 /* BLOG */
 /* News */
@@ -230,11 +225,11 @@ img {
 }
 
 /* BUTTON */
-.button {
+.Read-More {
   border: none;
   border-radius: 3px;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 51px;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
@@ -243,6 +238,7 @@ img {
   width: 160px;
   height: 51px;
   cursor: pointer;
-  padding: 0;
-  margin: 0;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
 }
