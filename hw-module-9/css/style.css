@@ -147,7 +147,7 @@
   height: 37px;
   right: 0;
   bottom: 0;
-  background-image: url(/img/Tv.png);
+  background-image: url(../img/Tv.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -165,7 +165,7 @@
   height: 37px;
   right: 0;
   bottom: 0;
-  background-image: url(/img/Clock.png);
+  background-image: url(../img/Clock.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -183,7 +183,7 @@
   height: 37px;
   right: 0;
   bottom: 0;
-  background-image: url(/img/Cup.png);
+  background-image: url(../img/Cup.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -201,7 +201,7 @@
   height: 37px;
   right: 0;
   bottom: 0;
-  background-image: url(/img/Plane.png);
+  background-image: url(../img/Plane.png);
   background-repeat: no-repeat;
   background-position: center;
 }
