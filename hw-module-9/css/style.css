@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Roboto:300&display=swap");
+
+/* Header */
+/* LOGO MENU */
+.container-fluid {
+  background-image: url(../img/header-img3.png);
+  min-height: 540px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px 0 0 0;
+  margin-bottom: 70px;
+}
+
+.container {
+  padding: 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 115px;
+  padding: 0;
+}
+
+.menu__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 89px;
+  height: 36px;
+}
+
+.menu__item:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 18px;
+}
+
+.menu__item__link {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+}
+
+.menu__item__link:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.logo {
+  margin: 0 0 35px;
+  padding: 0;
+  text-align: center;
+}
+
+.logo-link {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.logo-link:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+
+
+/* TITLE */
+.title {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.find-button {
+  display: block;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(255, 78, 80);
+  width: 280px;
+  height: 40px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* MAIN */
+.partner-section-title {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.partner-foto {
+  position: relative;
+  width: 122px;
+  height: 122px;
+  margin: 0 auto 20px;
+}
+
+/* Icons */
+.first-partner::after {
+  content: "";
+  display: block;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(255, 78, 80);
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  right: 0;
+  bottom: 0;
+  background-image: url(/img/tv.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.second-partner::after {
+  content: "";
+  display: block;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(255, 165, 7);
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  right: 0;
+  bottom: 0;
+  background-image: url(/img/clock.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.third-partner::after {
+  content: "";
+  display: block;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(28, 215, 173);
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  right: 0;
+  bottom: 0;
+  background-image: url(/img/cup.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fourth-partner::after {
+  content: "";
+  display: block;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(78, 115, 219);
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  right: 0;
+  bottom: 0;
+  background-image: url(/img/plane.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*  */
+
+.partner-name {
+  margin: 0 0 20px;
+  padding: 0;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.partner-name-link {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+
+.partner-name-link:hover {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+
+.about-partner {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  color: rgb(102, 102, 102);
+  text-align: center;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.button {
+  display: block;
+  border: none;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  width: 280px;
+  height: 40px;
+  margin: 30px auto 57px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 78, 80);
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* MEDIA */
+@media (max-width: 767px) {
+  .partner-card:not(:last-of-type) {
+    margin-bottom: 30px;
+  }
+}
+
+/* 768px */
+/* Header */
+@media (min-width: 768px) {
+  .container-fluid {
+    padding-top: 38px;
+    min-height: 700px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 150px;
+    padding-right: 40px;
+  }
+
+  .logo {
+    text-align: start;
+    padding-left: 35px;
+  }
+
+  .title {
+    font-size: 52px;
+    margin: 0 0 40px;
+    padding: 0;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    margin: 0 0 35px;
+    padding: 0;
+  }
+
+  /* Main */
+  .partner-section-title {
+    margin: 0 0 35px;
+  }
+
+  .partner-card {
+    margin-bottom: 60px;
+  }
+
+  .partner-card:nth-last-child(-n + 2) {
+    margin-bottom: 0px;
+  }
+
+  .button {
+    width: 192px;
+    height: 40px;
+    margin: 40px auto 40px;
+}
+
+/* 940px */
+/* Header */
+@media (min-width: 940px) {
+  .menu {
+    padding-right: 0px;
+  }
+
+  .logo {
+    padding-left: 0px;
+  }
+
+  /* Main */
+  .partner-card {
+    margin-bottom: 0px;
+  }
+
+
