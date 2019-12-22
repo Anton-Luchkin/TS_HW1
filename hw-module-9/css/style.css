@@ -79,8 +79,6 @@
   color: rgb(255, 255, 255);
 }
 
-
-
 /* TITLE */
 .title {
   font-size: 30px;
@@ -149,7 +147,7 @@
   height: 37px;
   right: 0;
   bottom: 0;
-  background-image: url(/img/tv.png);
+  background-image: url(/img/Tv.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -167,7 +165,7 @@
   height: 37px;
   right: 0;
   bottom: 0;
-  background-image: url(/img/clock.png);
+  background-image: url(/img/Clock.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -185,7 +183,7 @@
   height: 37px;
   right: 0;
   bottom: 0;
-  background-image: url(/img/cup.png);
+  background-image: url(/img/Cup.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -203,7 +201,7 @@
   height: 37px;
   right: 0;
   bottom: 0;
-  background-image: url(/img/plane.png);
+  background-image: url(/img/Plane.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -314,7 +312,7 @@
     width: 192px;
     height: 40px;
     margin: 40px auto 40px;
-}
+  }
 }
 
 /* 940px */
